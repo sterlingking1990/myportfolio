@@ -8,14 +8,9 @@
     padding: 5px 20px;
 }
 
-#summary{
-    margin-top:100px;
-}
-
 #summary h1{
     text-align: center;
     font-family: pacifico;
-    padding: 5px;
 }
 
 #summary img{
@@ -29,4 +24,3 @@
 #summary_pic{
     border:none;
 }
-
