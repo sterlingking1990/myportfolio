@@ -18,6 +18,15 @@
     padding: 5px;
 }
 
+#summary img{
+    align-items: center;
+}
+
 #summary_note{
     border: none;
 }
+
+#summary_pic{
+    border:none;
+}
+
