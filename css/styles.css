@@ -24,3 +24,10 @@
 #summary_pic{
     border:none;
 }
+
+.bg-img{
+    background:url('../images/another_one.jpg');
+    background-repeat:no-repeat;
+    min-height:500px;
+    background-size: cover;
+}
