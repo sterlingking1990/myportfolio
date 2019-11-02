@@ -26,7 +26,7 @@
     border:none;
 }
 
-#bg-img{
+.bg-img{
     background:url('../images/another_one.jpg');
     background-repeat:no-repeat;
     min-height:500px;
