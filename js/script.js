@@ -21,5 +21,15 @@ function sendMailOnLocalStorage(message){
 }
 
 $(document).on('click',':submit',function(e){
+    var email=$('#email').val();
+    var subject=$('#subject').val();
+    var message_body=$('#message_body').val()
 
+    message={
+        email:email,
+        subject:subject,
+        message_body:message_body
+    }
+
+    sendMailOnLocalStorage(message)
 })
