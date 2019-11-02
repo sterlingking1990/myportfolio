@@ -30,6 +30,7 @@
     background:url('../images/another_one.jpg');
     background-repeat:no-repeat;
     min-height:500px;
+    background-size: cover;
 }
 
 #Education hr{
@@ -39,3 +40,13 @@
 #Skills hr{
     margin-top:12px;
 }
+
+#Experience hr{
+    margin-top:12px;
+}
+
+#Experience li a:hover{
+    background-color:blue;
+}
+
+
