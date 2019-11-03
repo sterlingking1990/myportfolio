@@ -18,6 +18,10 @@
     align-items: center;
 }
 
+#summary span{
+    margin:5px 10px;
+}
+
 #summary_note{
     border: none;
 }
