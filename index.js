@@ -1,5 +1,5 @@
 const mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
-const name="kingsley";
+const myemail="izundukingsleyemeka@gmail.com";
 const from = document.querySelector('#email')
 const subject = document.querySelector('#subject')
 const message_body = document.querySelector('#message_body')
@@ -36,12 +36,9 @@ validateEntry=()=>{
 
 const sendMail=(isEntryValid)=>{
     if(isEntryValid!==false){
-        const link = "mailto:izundukingsleyemeka@gmail.com" +
-            "&from=" + escape(from.value) +
-            "&subject=" + escape(subject.value) +
-            "&body=" + escape(message_body.value);
 
-        window.location.href = link
+        const link = 'mailto:' + myemail + ' ?subject=' + subject.value + '&body=' + message_body.value;
+        window.open(link,'send Mail')
     }
     else{
         alert("Error sending mail, please check that email is valid and subject less than 20 characters long and message body isnt empty")
