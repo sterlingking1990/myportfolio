@@ -11,8 +11,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
-    <script src="js/script.js"></script>
+    <script src="index.js"></script>
     <link rel="stylesheet" href="css/styles.css" />
+
 </head>
 
 <body style="background-color:grey;">
@@ -53,14 +54,14 @@
                             <div class="media-body">
                                 <h3 class="display-4 text-center">Say Hello Anytime</h3>
                                 <div class="form-group">
-                                    <input id="email" type="email" class="form-control mx-1" placeholder="Enter your email"/>
+                                    <input id="email" name="email" type="email" class="form-control mx-1" placeholder="Enter your email"/>
                                 </div>
                                 <div class="form-group">
-                                    <input id="subject" type="text" class="form-control mx-1" placeholder="Whats the Subject about" />
+                                    <input id="subject" name="subject" type="text" class="form-control mx-1" placeholder="Whats the Subject about" />
                                 </div>
                                 <div class="form-group">
                                     
-                                    <textarea id="message_body" cols="6" rows="5" class="form-control mx-1" maxlength="200" placeholder="Hello Dear, type your message"></textarea>
+                                    <textarea id="message_body"  name="body" cols="6" rows="5" class="form-control mx-1" maxlength="200" placeholder="Hello Dear, type your message"></textarea>
                                 </div>
                                 <div class="form-group">
                                     <button id="submit" type="submit" class="btn-success form-control">SEND MAIL</button>
@@ -82,6 +83,5 @@
             </div>
         </div>
     </div>
-
 </body>
 </html>

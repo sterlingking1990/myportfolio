@@ -1,0 +1,23 @@
+{
+  "name": "oscip.j",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterlingking1990/myportfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sterlingking1990/myportfolio/issues"
+  },
+  "homepage": "https://github.com/sterlingking1990/myportfolio#readme"
+}
